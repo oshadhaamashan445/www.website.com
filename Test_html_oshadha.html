@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Test HTML</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                text-align: center;
+                padding: 50px;
+            }
+            h3 {
+                color: #333;
+            }
+            a {
+                text-decoration: none;
+                color: #007BFF;
+                font-weight: bold;
+            }
+            a:hover {
+                color: #0056b3;
+            }
+            .message {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var old = prompt("How old are you?", "");
+            if (old < 13) {
+                window.alert("You cannot load this website");
+            } else {
+                document.write('<div class="message"><p><h3><a href="Test_html_oshadha.html">Continue to the website</a></h3></p></div>');
+            }
+        </script>
+    </body>
+</html>
